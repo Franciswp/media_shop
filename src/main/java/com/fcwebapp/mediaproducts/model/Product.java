@@ -53,7 +53,7 @@ public class Product extends BaseEntity{
         review.setProduct(this);
     }
 
-    public String getBookDescriptions(){
+    public String getProductDescriptions(){
         return this.productNumber + ":"
                 + this.price + ";"
                 + this.name;
